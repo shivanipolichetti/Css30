@@ -1,0 +1,58 @@
+<html>
+    <head><meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <title>grid1</title>
+        <style>
+            #parent{
+
+                  text-align: center;
+                  background-color:white;
+                display: grid;
+                grid-template-columns:650px 400px;
+                gap:18px;
+                   
+            }
+            #parent div{
+
+                background-color:lightblue;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            #child{
+                background-color: white;
+                text-align: center;
+                display:grid;
+                grid-template-columns: 650px 400px;
+                gap:20px;
+            }
+            #child div{
+                background-color:lightcoral;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="parent">
+           <div style="grid-row:1/3; height: 350px;">1</div>
+           <div style="grid-column: 2/5;">2</div>
+          <div style="width: 410px;">3</div>
+          <div style="width:440px;">4</div>
+          </div>
+          <br>
+        </div>
+        <div id="child">
+        <div style="grid-row: 1/3; height:350px;">1</div>
+        <div style="grid-column:2/5;">2</div>
+        <div style="width:450px;">3</div>
+        <div style="width:440px;">4</div>
+
+        </div>
+
+
+
+    </body>
+</html>

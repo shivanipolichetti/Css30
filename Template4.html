@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <head><meta charset="UTF-8">
+            <meta name="viewport"content="width=device-width, initial-scale=1.0">
+            <title>grid4</title>
+            <style>
+                #img1{
+                    display:grid;
+                    grid-template-columns: 200px 100px 100px;
+                    grid-template-rows: 200px 200px 200px;
+                    gap:10px;
+                    justify-content:center;
+    
+                }
+
+                 #gallery{
+                    display:flex;
+    
+                 }
+                 #img{
+                    display: flex;
+                    direction: column;
+                    background-color: orange;
+                    width:500px;
+                    height:800px;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                 }
+                
+            </style>
+    </head>
+    <body>
+        <div id="gallery">
+        <div id="img">
+            <h1><span style =color:white;>CSS GRID</span><br>RESPONSIVE<br>IMAGE<br>GALLERY</div></h1>
+            <div id="img1">
+            <div><img src="./img/a.jpeg"></div>
+            <div style="margin-left:60%;"><img src="./img/b.jpeg"width="200px;" height="470px;"></div>
+            <div style="margin-left:160%;"><img src="./img/c.jpeg" height="200px;"></div>
+            <div><img src="./img/d.jpeg" width="260px;"height="210px;"></div>
+            <div style="margin-left: 270%;"><img src="./img/e.jpeg" width="100px;"height="250px;"></div>
+            <div style="margin-left:270%;"><img src="./img/f.jpeg" width="190px;"height="200px;"></div>
+            <div style="margin-top:6%;"><img src="./img/g.jpeg" width="260px;"height="190px;"></div>
+            <div style="margin-left:60%; margin-top:60%;"><img src="./img/h.jpeg" width="300px;"height="320px;"></div>
+            <div style="margin-left:270%; margin-bottom:20%;"><img src="./img/i.jpeg" width="200px;"height="380px;"></div>
+            <div><img src="./img/j.jpeg" width="260px;"height="170px;"></div>
+            </div> 
+        </div>
+    </body>
+</html>
